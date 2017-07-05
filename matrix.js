@@ -16,6 +16,11 @@ function getMatrix (n) {
 
 
 function updateMatrix (matrix, coords, value) {
+  x = coords[0]
+  y = coords[1]
+
+  matrix[x][y] = value
+  return matrix
 }
 
 
